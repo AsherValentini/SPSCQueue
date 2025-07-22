@@ -3,6 +3,9 @@ project(SPSCQueue)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# ───────────────────────────────────────────────────────
+# src code setup and program target
+# ───────────────────────────────────────────────────────
 
 add_executable(prog
 	src/main.cpp
