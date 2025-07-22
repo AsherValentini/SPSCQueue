@@ -7,6 +7,5 @@ int main() {
 
 	auto ptr = std::make_unique<RingBuffer<Tick, 10>>();
 
-
 	return 0;
 }
