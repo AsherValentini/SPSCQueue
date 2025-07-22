@@ -1,6 +1,12 @@
 #include <iostream>
+#include <memory>
+#include "ring_buffer.hpp"
+#include "tick.hpp"
 
 int main() { 
-	std::cout<<"check check" << std::endl; 
-	return 0; 
+
+	auto ptr = std::make_unique<RingBuffer<Tick, 10>>();
+
+
+	return 0;
 }

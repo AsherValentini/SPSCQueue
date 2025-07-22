@@ -1,0 +1,5 @@
+if(EXISTS "/home/asher/cpp-projects/SPSCQueue/build/test[1]_tests.cmake")
+  include("/home/asher/cpp-projects/SPSCQueue/build/test[1]_tests.cmake")
+else()
+  add_test(test_NOT_BUILT test_NOT_BUILT)
+endif()
